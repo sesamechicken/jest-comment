@@ -1,9 +1,12 @@
 name: 'Jest Comments'
 description: 'An action to comment on your Jest results '
 inputs:
+  who-to-greet:
+    required: true
+    default: 'My Little Mule: Peppy'
   test_cmd:  # id of input
     description: 'Test method to execute with npm/yarn'
-    required: true
+    required: false
     default: 'node node_modules/jest/bin/jest'
   test_paths:  # id of input
     description: 'Array of test paths (e.g. client, server)'
