@@ -11,7 +11,7 @@ inputs:
   test_paths:  # id of input
     description: 'Array of test paths (e.g. client, server)'
     required: false
-    default: []
+    default: ''
 outputs:
   time: # id of output
     description: 'The time we greeted you'
