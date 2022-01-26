@@ -1,6 +1,6 @@
 {
   "name": "jest-comment",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "An action to comment on your Jest results",
   "main": "index.js",
   "scripts": {
