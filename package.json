@@ -1,0 +1,24 @@
+{
+  "name": "jest-comment",
+  "version": "1.0.0",
+  "description": "An action to comment on your Jest results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sesamechicken/jest-comment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sesamechicken/jest-comment/issues"
+  },
+  "homepage": "https://github.com/sesamechicken/jest-comment#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}

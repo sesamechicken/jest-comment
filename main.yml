@@ -1,0 +1,17 @@
+name: 'Jest Comments'
+description: 'An action to comment on your Jest results '
+inputs:
+  test_cmd:  # id of input
+    description: 'Test method to execute with npm/yarn'
+    required: true
+    default: 'node node_modules/jest/bin/jest'
+  test_paths:  # id of input
+    description: 'Array of test paths (e.g. client, server)'
+    required: false
+    default: []
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'index.js'
